@@ -38,3 +38,5 @@ export class FeedbackVidget extends Component {
     </>;
   }
 }
+
+FeedbackVidget.propsType = {};
