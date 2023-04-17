@@ -12,11 +12,11 @@ export class FeedbackVidget extends Component {
   };
 
   incrementNeutral = () => {
-    this.setState(prevState => ({ good: prevState.neutral + 1 }));
+    this.setState(prevState => ({ neutral: prevState.neutral + 1 }));
   };
 
   incrementBad = () => {
-    this.setState(prevState => ({ good: prevState.bad + 1 }));
+    this.setState(prevState => ({ bad: prevState.bad + 1 }));
   };
 
   render() {
