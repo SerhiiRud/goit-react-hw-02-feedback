@@ -1,12 +1,6 @@
 import PropTypes from 'prop-types';
 
-import {
-  StatisticsHeader,
-  Value,
-  RatingType,
-  Percent,
-  Total,
-} from './Statistics.styled';
+import { Value, RatingType, Percent, Total } from './Statistics.styled';
 
 export const Statistics = ({
   good,
@@ -17,7 +11,6 @@ export const Statistics = ({
 }) => {
   return (
     <div>
-      <StatisticsHeader>Statistics</StatisticsHeader>
       <RatingType>
         Good: <Value>{good}</Value>
       </RatingType>

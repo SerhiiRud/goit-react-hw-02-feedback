@@ -34,6 +34,7 @@ export class App extends Component {
             onLeaveFeedback={this.onLeaveFeedback}
           />
         </Section>
+        <Header>Statistics</Header>
         <Section>
           {this.countTotalFeedback() > 0 ? (
             <Statistics

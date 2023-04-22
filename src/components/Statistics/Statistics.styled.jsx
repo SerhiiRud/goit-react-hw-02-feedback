@@ -1,9 +1,5 @@
 import styled from '@emotion/styled';
 
-export const StatisticsHeader = styled.h2`
-  text-align: center;
-`;
-
 export const RatingType = styled.p`
   width: 100px;
   display: flex;
