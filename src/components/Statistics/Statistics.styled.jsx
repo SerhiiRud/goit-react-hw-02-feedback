@@ -30,5 +30,13 @@ export const Total = styled.span`
 
 export const Percent = styled.span`
   dispaly: inline-block;
-  color: black;
+  color: ${({ type }) => {
+    if (type > 80) {
+      return 'green';
+    } else if (type <= 80 && type > 20) {
+      return 'orange';
+    } else {
+      return 'red';
+    }
+  }};
 `;
