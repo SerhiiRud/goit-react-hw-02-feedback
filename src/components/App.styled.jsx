@@ -5,13 +5,10 @@ export const VidgetContainer = styled.div`
   margin: 0 auto;
   width: 600px;
   border: 2px dotted grey;
-`;
-
-export const Controls = styled.div`
-  display: flex;
-  gap: 8px;
+  background-color: #ffdab9;
 `;
 
 export const Header = styled.h2`
   margin: 16px 0;
+  text-align: center;
 `;

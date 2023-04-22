@@ -1,3 +1,10 @@
+import PropTypes from 'prop-types';
+import { SectionEl } from './Section.styled';
+
 export const Section = ({ children }) => {
-  return <section title="">{children}</section>;
+  return <SectionEl title="">{children}</SectionEl>;
+};
+
+Section.propTypes = {
+  children: PropTypes.any.isRequired,
 };
